@@ -20,7 +20,7 @@ public class Controller {
 		System.out.println("Digite seu endere�o de IP");
 		String meuIP = in.next();
 		
-		DatagramSocket serverSocket = new DatagramSocket(9876);
+		DatagramSocket serverSocket = new DatagramSocket(9873);
         byte[] receiveData = new byte[1024];
 		DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
 		serverSocket.receive(receivePacket);
