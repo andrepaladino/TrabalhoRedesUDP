@@ -1,0 +1,4 @@
+Escreva o arquivo da seguinte maneira
+IP:IP,IP...;
+IP2:IP2,IP2...;
+IP3:IP3,IP3...;
