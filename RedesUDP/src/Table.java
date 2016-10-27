@@ -70,7 +70,7 @@ class Table {
 	}
 
 	public String printTable() {
-		String tabela = "      IP      | M |   IPDESTINO   \n";
+		String tabela = "      IP     | M |   IPDESTINO   \n";
 		for (int index = 0; index < this.IP.size(); index++) {
 			tabela = tabela.concat(this.IP.get(index));
 			tabela = tabela.concat(" | ");
